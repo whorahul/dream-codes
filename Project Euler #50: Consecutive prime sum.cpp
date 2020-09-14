@@ -59,10 +59,7 @@ unsigned long long powmod(unsigned long long base, unsigned long long exponent, 
 // Miller-Rabin-test
 bool isPrime(unsigned long long p)
 {
-  // some code from             https://ronzii.wordpress.com/2012/03/04/miller-rabin-primality-test/
-  // with optimizations from    http://ceur-ws.org/Vol-1326/020-Forisek.pdf
-  // good bases can be found at http://miller-rabin.appspot.com/
-
+  
   // trivial cases
   const unsigned int bitmaskPrimes2to31 = (1 <<  2) | (1 <<  3) | (1 <<  5) | (1 <<  7) |
                                           (1 << 11) | (1 << 13) | (1 << 17) | (1 << 19) |
