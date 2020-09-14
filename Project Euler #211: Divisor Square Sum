@@ -1,7 +1,6 @@
 //Language : C++
 //by Rahul Balamwar
 
-
 #include <bits/stdc++.h>
 using namespace std;
 typedef unsigned long long ULL;
