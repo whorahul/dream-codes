@@ -1,3 +1,6 @@
+//Language: C++
+//by Rahul Balamwar
+
 #include <cmath>
 #include <cstdio>
 #include <vector>
