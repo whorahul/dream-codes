@@ -1,3 +1,6 @@
+//Language: C++
+//by Rahul Balamwar
+
 #include <bits/stdc++.h>
 #include <iomanip>
 using namespace std;
