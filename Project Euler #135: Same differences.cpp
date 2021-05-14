@@ -27,7 +27,7 @@ int main()
     }
 
 #ifdef ORIGINAL
-  // count all with exactly 10 solutions
+  // count all with exactly 10 solution
   unsigned int count = 0;
   for (auto s : solutions)
     if (s == 10)
